@@ -1,0 +1,342 @@
+/*General*/
+/*General*/
+/*Index*/
+.logo h1
+{
+    font-size: 34px;
+    margin-right: 300px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+   display: inline-block;
+   
+
+}
+.container
+{
+   
+    display: inline-block;
+    
+}
+.dropdown
+{
+    display:inline-block; 
+    float: left;
+    margin-top: 10px;
+}
+#drow-menu
+{
+    color: gray;
+}
+
+#blanc
+{
+    color: white;
+    font-weight: bold;
+}
+#gris
+{
+    color: black;
+}
+#nav
+{
+    position: relative;
+    background-color:#008080;
+}
+.state
+{
+    color:black !important;
+    transition: 1s;
+}
+
+.state:hover
+{
+    color: #c83349 !important;
+    transition: 1s;
+}
+#panier-block
+{
+    display: inline-block;
+  
+    
+}
+#Panier
+{
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
+   
+}
+.decort-menu
+{
+    color: white !important;
+    transition: 1s;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.decort-menu:hover
+{
+    color: #c83349 !important;
+    transition: 1s;
+}
+#search-in
+{
+    width: 10px !important;
+}
+#search
+{
+    margin-top: 20px !important;
+}
+#search-ine
+{
+    color: white;
+}
+#icon
+{
+    padding-right: 2px;
+}
+
+#component-index
+{
+    display: block;
+    margin: 0 auto !important;
+    float: left !important;
+}
+
+#component-index #search
+{
+    width: 500px;
+    border-radius: 10px;
+    
+   
+
+}
+#btn-srch
+{
+    background-color: #c83349;
+    height: 30px;
+    border-radius: 10px; 
+    max-width: 100%;
+}
+#mycarousel
+{
+    text-align: center;
+    margin-left: 100px;
+    width: 600;
+    height: 500;
+    
+
+}
+#block
+{
+    height: 600px;
+    display: block;
+  
+    
+    
+}
+.overlay
+{
+  
+    height: 500px;
+    padding: 0 0 0 0;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    max-width: 100%;
+    background-color:#008080;
+    opacity: 0.8;
+}
+.overlay .container h2
+{
+    color: white;
+    font-size: 25px;
+    padding-top: 85px;
+    float: left;
+    padding-left: 0px;
+    font-family:'Crete Round', serif;
+}
+
+#new
+{
+    margin-top: 45px;
+    margin: 0 auto;
+}
+.ligne-rouge
+{
+    height: 2px;
+    width: 380px;
+    background-color: #c83349;
+    margin: 0 auto;
+
+    
+}
+/*Index*/
+/*FORM*/
+#form
+{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.comments
+{
+    color: #c83349;
+}
+/*FORM*/
+/*LOGIN*/
+#form-log
+{
+    width: 400px;
+    height: 400px;
+    background: white;
+    
+}
+/*LOGIN*/
+/*Admin*/
+#bg-admin
+{
+    
+    background-color: #008080;
+    margin: 0 auto;
+}
+#vueDonne
+{
+    background-color: red;
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    border-radius: 10px;
+   margin-right: 100px;
+   margin-top: 12px;
+   float: right;
+}
+
+#control
+{
+    background-color: white;
+}
+#titre-inscri
+{
+    display: inline-block;
+}
+/*Admin*/
+/*COMPTE*/
+#retour
+{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+
+
+}
+#bg-compte
+{
+    background-color: #008080;
+}
+#profil
+{
+    width: 600px;
+    height: 600px !important;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 100%;
+    border-radius: 20px !important;
+    
+}
+#profil h1
+{
+    text-align: center;
+}
+.ligne-grise
+{
+    background-color: #AAA;
+    height: 2px;
+    width: 100px;
+    
+
+}
+#mise
+{
+    margin-left: 30px;
+}
+/*COMPTE*/
+/*CHANGEMDP*/
+#bg-chmdp
+{
+    background-color: #c83349;
+}
+#msp-chmdp
+{
+    background-color: white;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto !important;
+    border-radius: 10px;
+    
+}
+#msp-chmdp input
+{
+    width: 400px;
+    margin: 0 auto;
+    
+
+}
+#msp-chmdp label
+{
+    margin: 0 auto;
+}
+#confirm
+{
+   margin-top: 40px !important;
+
+}
+#msp-chmdp h1
+{
+    text-align: center;
+}
+#confirm
+{
+   margin-left: 200px !important;
+}
+/*CHANGEMDP*/
+/*SOLDISVALID*/
+#message
+{
+    width: 600px;
+    height: 300px;
+    background-color: green;
+    color: white;
+    margin: 0 auto;
+    
+}
+#message > h2
+{
+    text-align: center;
+}
+#message > p
+{
+    text-align: center;
+}
+#retour
+{
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+}
+#retour:hover
+{
+    color: #c83349;
+    transition: 0.5s;
+}
+/*SOLIDISVALID*/
+/*InscriptionAdmin*/
+
+/*InscriptionAdmin*/
+#menu
+{
+    
+    position: absolute;
+    right: -40px;
+    
+}
